@@ -1,4 +1,4 @@
-# Project Starter for Software Technologies 2020
+# Project Starter
 
 
 ###### Tech Stack
