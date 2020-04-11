@@ -21,13 +21,3 @@ To start the server locally use
 npm install
 npm run server
 ```
-
-
-![Image description](https://raw.githubusercontent.com/AlexanderPPetrov/st-js-be-2020/master/docs/atlas.jpg
-)
-
-Add .env file to the root of the project and add in it:
-
-MONGODB_URL="YOU_NEED_TO_PASTE_HERE_THE_URL_FROM_YOUR_DB";
-
-and replace the field \<password\> with your actual password
