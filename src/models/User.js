@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import Game from "./Game";
 
 const Schema = mongoose.Schema;
 
@@ -26,6 +27,9 @@ const UserSchema = new Schema({
     phone: {
         type: String,
         required: false
+    },
+    games: {
+        type: [Game.schema]
     }
 })
 
