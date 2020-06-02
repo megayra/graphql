@@ -18,7 +18,8 @@ const UserSchema = new Schema({
     },
     email: {
         type: String,
-        required: true
+        required: true,
+        unique: true,
     },
     password: {
         type: String,
@@ -30,8 +31,12 @@ const UserSchema = new Schema({
     },
     games: {
         type: [Game.schema]
+    },
+    userType: {
+        type: String,
+        required: true
     }
-})
+});
 
 const User = mongoose.model("User", UserSchema);
 
